@@ -11,10 +11,7 @@ namespace DbAccess
             this.options = options;
         }
 
-        public DatabaseContext Create()
-        {
-            return new DatabaseContext(options);
-        }
+        public DatabaseContext Create() => new DatabaseContext(options);
 
     }
 }

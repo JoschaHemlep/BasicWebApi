@@ -15,4 +15,9 @@
     <PackageReference Include="Reinforced.Typings" Version="1.5.5" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj" />
+    <ProjectReference Include="..\DbAccess\DbAccess.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -20,4 +20,10 @@
     <Folder Include="BasicWebApi\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BasicWebApi\BasicWebApi.csproj" />
+    <ProjectReference Include="..\Common\Common.csproj" />
+    <ProjectReference Include="..\DbAccess\DbAccess.csproj" />
+  </ItemGroup>
+
 </Project>
