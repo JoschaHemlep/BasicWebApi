@@ -1,4 +1,6 @@
 ﻿using AutoMapper;
+using BasicWebApi.Dtos;
+using DbAccess.Models;
 
 namespace BasicWebApi
 {
@@ -6,7 +8,7 @@ namespace BasicWebApi
     {
         public AutomapperProfile()
         {
-            // CreateMap<Foo, FooDto>();
+            CreateMap<ExampleModel, ExampleDto>();
         }
     }
 }
